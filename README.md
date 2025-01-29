@@ -8,7 +8,7 @@ Before running the application, ensure you have the following installed:
 
 - Node.js (LTS version recommended)
 - npm or Yarn
-- The backend part of the application running (refer to the backend's [README.md](../backend/README.md) for setup instructions)
+- The backend part of the application running (refer to the backend's [README.md](https://github.com/SuitlessStan/football-manager-be/blob/main/README.md) for setup instructions)
 
 ## Setup
 
@@ -72,13 +72,6 @@ This application uses the following key libraries and frameworks:
 ## Connecting to the Backend
 
 The frontend relies on the backend for data. Ensure the backend is running and accessible at the URL specified in the `NEXT_PUBLIC_API_URL` environment variable. Refer to the backend's [README](../backend/README.md) for more details on setting up and running the backend.
-
-## Testing
-
-The frontend is set up to work with testing libraries. You can add and run tests using:
-```bash
-npm run test
-```
 
 ## Deployment
 
